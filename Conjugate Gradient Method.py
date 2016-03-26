@@ -12,6 +12,8 @@ guess of the zero vector.
 This function uses the library numpy
 '''
 
+import numpy as np
+
 def conjugate(A,b,x0):
     x = x0.copy()
     r_prev = b - np.dot(A,x)
